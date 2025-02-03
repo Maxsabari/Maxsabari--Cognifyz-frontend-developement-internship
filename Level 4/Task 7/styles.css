@@ -1,0 +1,38 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa; /* Light background for the body */
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Customization */
+.navbar {
+    margin-bottom: 30px;
+}
+
+/* Form Validation Error Message Styles */
+.error-message {
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+
+/* Footer Customization */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+}
+
+/* Additional Custom Styling */
+section h2 {
+    color: #333;
+    font-size: 32px;
+}
+
+button:focus {
+    outline: none; /* Remove the default focus outline on the button */
+}
+
+button:hover {
+    background-color: #45a049; /* Darken the background color on hover */
+}
