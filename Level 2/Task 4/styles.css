@@ -49,6 +49,11 @@ footer {
     padding: 10px;
 }
 
+body {
+    transition: background-color 0.5s ease;
+}
+
+
 /* Media Query for Tablets (Devices with a max-width of 768px) */
 @media screen and (max-width: 768px) {
     header h1 {
