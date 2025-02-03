@@ -1,0 +1,61 @@
+/* General Styles */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+section {
+    margin: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+section h2 {
+    color: #333333;
+    font-size: 28px;
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Styling for the posts */
+#postsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.post h3 {
+    font-size: 20px;
+    color: #333333;
+}
+
+.post p {
+    font-size: 16px;
+    color: #555555;
+}
