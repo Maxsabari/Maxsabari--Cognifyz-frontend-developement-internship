@@ -1,0 +1,57 @@
+// Variables for colors, font sizes, etc.
+$primary-color: #4CAF50;
+$secondary-color: #333333;
+$light-bg-color: #f0f0f0;
+$button-hover-color: #45a049;
+$font-family: 'Arial', sans-serif;
+$base-font-size: 16px;
+$heading-font-size: 32px;
+
+// Global Styles
+body {
+    background-color: $light-bg-color;
+    font-family: $font-family;
+    font-size: $base-font-size;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: $primary-color;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+    h1 {
+        font-size: $heading-font-size;
+    }
+}
+
+section {
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+button {
+    padding: 10px;
+    background-color: $primary-color;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    &:hover {
+        background-color: $button-hover-color;
+    }
+}
+
+// Footer styles
+footer {
+    background-color: $secondary-color;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
