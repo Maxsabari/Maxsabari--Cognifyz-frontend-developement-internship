@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Development</title>
+</head>
+<body style="background-color: #f0f0f0; font-family: Arial, sans-serif;">
+
+    <header style="background-color: #4CAF50; color: white; padding: 20px; text-align: center;">
+        <h1 style="font-size: 36px;">Welcome to Interactive Web Development</h1>
+    </header>
+
+    <section style="margin: 20px; padding: 15px; background-color: #ffffff; border-radius: 8px;">
+        <h2 style="color: #333333; font-size: 28px;">Introduction</h2>
+        <p style="font-size: 16px; color: #555555; line-height: 1.6;">
+            This is a project aimed at creating an interactive and responsive website. The following content will demonstrate how to build the structure of an HTML page, from basic elements to more advanced techniques.
+        </p>
+    </section>
+
+    <section style="margin: 20px; padding: 15px; background-color: #ffffff; border-radius: 8px;">
+        <h2 style="color: #333333; font-size: 28px;">Image Display</h2>
+        <p style="font-size: 16px; color: #555555;">
+            Below is an example of an image added to the page:
+        </p>
+        <img src="https://images.unsplash.com/photo-1521747116042-5a810fda9664" alt="Coding Workspace" width="500">
+
+    </section>
+
+    <footer style="background-color: #333333; color: white; text-align: center; padding: 10px;">
+        <p style="font-size: 14px;">Created by Sabariraja MUruganantham - Web Development Project</p>
+    </footer>
+
+</body>
+</html>
