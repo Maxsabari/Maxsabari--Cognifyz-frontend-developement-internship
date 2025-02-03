@@ -1,0 +1,50 @@
+/* Compiled from styles.scss */
+
+/* Global Styles */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 32px;
+  }
+  
+  section {
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
